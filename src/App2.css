@@ -1,5 +1,5 @@
-.App {
-  text-align: center;
+/* .App {
+  text-align: end;
 }
 
 .App-logo {
@@ -35,4 +35,30 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body{
+  height: 100vb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #81cbe3;
+}
+
+.input{
+  background-color: aliceblue;
+  border: none;
+}
+
+button{
+  background-color: aliceblue;
+  border: none;
+  height: 30px;
+  width: 70px;
 }
